@@ -3,7 +3,7 @@ import telebot
 import random
 import sympy
 
-API_KEY = "6504782512:AAFuwytXMDoiJwJXz8SS0jltDdWgthsRBSs"  # Replace with your actual API key
+API_KEY = "********************************"  # Replace with your actual API key
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['hi'])
